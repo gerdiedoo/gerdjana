@@ -3,7 +3,7 @@ var app = document.getElementById('app');
 var typewriter = new Typewriter(app, {
   loop: false,
   autoStart: true,
-  delay: 1000,
+  delay: 500,
   cursor: '█',
   strings: []
 });
