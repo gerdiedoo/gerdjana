@@ -23,6 +23,4 @@ typewriter
   .typeString('<a href="https://www.youtube.com/channel/UC72iZhxJaBlkwdOrWXflC8Q">youtube</a> <br />')
   .typeString('<a href="https://twitter.com/gerdjana">twitter</a> <br />')
   .typeString('<a href="https://www.instagram.com/gerdiedoo/">instagram</a> <br />')
-  .typeString('<a href="C:\\Users\\gerd1\\port\\playground\\templates\\work-in-progress.html">blog</a> <br />')
-  .typeString('<a href="C:\\Users\\gerd1\\port\\playground\\templates\\work-in-progress.html">works</a> <br />')
   .pauseFor(1000)
