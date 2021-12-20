@@ -35,3 +35,8 @@ typewriter
   .typeString('<br />')
   .typeString('<br />')
   .typeString('I guess ur lonely too') 
+  .pauseFor(500)
+  .typeString('<br />')
+  .typeString('<br />')
+  .typeString('<br />')
+  .typeString('click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"> here </a> to cheer up')
