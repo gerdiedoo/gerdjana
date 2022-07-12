@@ -1,6 +1,12 @@
+:root {
+    --big_font_color: #e8ab27;
+    --background_color : #1d2120;
+    --small_font_color: #d5d5af;
+
+}
 body {
-    background: #191e24;
-    color: rgb(172,183,205);
+    background: var(--background_color);
+    color: var(--small_font_color);
     font-family: "Fira Mono", monospace;
     font-size: 16px;
     margin: 0 auto;
@@ -19,11 +25,11 @@ body {
 }
 
 header {
-    margin: 40px 55px 60px;
+    margin: 40px 115px 60px;
 }
 
 a {
-    color: rgb(51,206,216);
+    color: var(--big_font_color);
     text-decoration: none;
 }
 ul {
@@ -40,27 +46,26 @@ nav ul {
 }
   
 nav ul li {
-    color: rgb(51,206,216);
+    color: var(--big_font_color);
     cursor: pointer;
 }
 nav ul a {
-    color: rgb(51,206,216);
+    color: var(--big_font_color);
 }  
 footer {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
     padding-bottom: 8rem;
-    display: table;
     text-align: center;
     position: absolute;
     bottom: 0;
 }
 .root {
-    color: rgb(51,206,216);
+    color: var(--big_font_color);
 }
 .underline:hover {
-    color: rgb(51,206,216);
+    color: var(--big_font_color);
 }
 
 .underline {
@@ -87,7 +92,7 @@ footer {
 
 .cursor {
     animation: cursor 1s infinite;
-    color: rgb(51,206,216);
+    color: var(--big_font_color);
     display: inline-block;
     width: 10px;
     margin-left: 5px;
