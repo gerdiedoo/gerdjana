@@ -1,5 +1,15 @@
-var app = document.getElementById('app');
+var app_wm =  document.getElementById('app_welcome_message')
+var typewriter_wm =  new Typewriter(app_wm,{
+  loop: false,
+  autoStart: true,
+  delay: 100,
+  cursor: '|',
+  strings: []
+});
+typewriter_wm
+  .typeString('HI...')
 
+var app = document.getElementById('app');
 var typewriter = new Typewriter(app, {
   loop: false,
   autoStart: true,
@@ -8,6 +18,7 @@ var typewriter = new Typewriter(app, {
   strings: []
 });
 typewriter
+  .pauseFor(4000)
   .typeString('./intro_typewriter')
   .typeString('<br />') 
   .pauseFor(2000)
@@ -18,12 +29,13 @@ typewriter
   .pauseFor(500)
   .typeString('Im Gerd Jana <br />')
   .pauseFor(500)
-  .typeString('A computer science student<br />')
+  .typeString('A computer science graduate<br />')
   .pauseFor(500)
   .typeString('Check me out on: <br />')
   .typeString('<br />')
   .pauseFor(500)
   .typeString('<a href="https://www.youtube.com/channel/UC72iZhxJaBlkwdOrWXflC8Q">youtube</a> <br />')
   .typeString('<a href="https://twitter.com/gerdjana">twitter</a> <br />')
-  .typeString('<a href="https://www.instagram.com/gerdiedoo/">instagram</a>')
+  .typeString('<a href="https://www.instagram.com/gerdiedoo/">instagram</a> <br />')
+  .typeString('<a href="https://github.com/gerdiedoo">github</a>')
   .pauseFor(1000)

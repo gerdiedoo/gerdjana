@@ -10,64 +10,71 @@
         <link rel="shortcut icon" type="image/jpg" href="terminal-59.png"/>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                <li id="about">/about_me</li>
-                <a href="work-in-progress.html">/blog</a>
-                <a href="work-in-progress.html">/things_i_made</a>
-                <li id="contact">/contact</li>
-                </ul>
-            </nav>
-        </header>
-        <div class="site-title">
-            <h1>
-                <nobr><a href="">gerdiedoo@jana:~$</a><span class="cursor">|</span></nobr>
-            </h1>
-        </div>
-        
-        <div class="hidden">
-            <div id="about-content">
-                <h2 class="root">about_me@jana:~$<span class="cursor">|</span></h2>
-                <p>
-                    Hi, my full name is Gerd Lowell A. Jana, Im just a student in Ateneo de Naga University, 
-                    that is investing his time on full-stack development (that focuses on simplicity, usability & performance), 
-                    machine learning, computer vision and some game development on the side.
-                </p>
-                <p>
-                    I hope you have a wonderful time.
-                </p>
-            </div>
-        
-            <div id="contact-content">
-                <h2 class="root">contact@jana:~$<span class="cursor">|</span></h2>
-                <p>You can contact me at my email below</p>
-                <ul>
-                    <li>-------------------------</li>
-                    <li>gerdlowelljana@gmail.com</li>
-                    <li>-------------------------</li>
-                </ul>
+        <div id="overlay" class = "welcome_message">
+            <div id="app_welcome_message">
+                
             </div>
         </div>
-        <div id="app" class="container">
+        <div class = "website_body">
+            <header>
+                <nav>
+                    <ul>
+                    <a> <li id="about">/about_me</li> </a>
+                    <a href="work-in-progress.html">/blog </a>
+                    <a href="things-i-made.html">/things_i_made </a>
+                    <a> <li id="contact">/contact</li> </a>
+                    </ul>
+                </nav>
+            </header>
+            <div class="site-title">
+                <h1>
+                    <nobr><a href="">gerdiedoo@jana:~$</a><span class="cursor">|</span></nobr>
+                </h1>
+            </div>
             
-        </div>
-        <footer>
-            <a href="" class="svglink">
-            </a>
-            <br><br>
-            <div>
-
-            &copy;
-            <!-- <span id="copyright">
-                <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-            </span> -->
-            Gerd Jana
+            <div class="hidden">
+                <div id="about-content">
+                    <h2 class="root">about_me@jana:~$<span class="cursor">|</span></h2>
+                    <p>
+                        Hi, my full name is Gerd Lowell A. Jana, Im just a fresh graduate in Ateneo de Naga University, 
+                        that is investing his time on full-stack development (that focuses on simplicity, usability & performance), 
+                        machine learning, computer vision and some game development on the side.
+                    </p>
+                    <p>
+                        I hope you have a wonderful time.
+                    </p>
+                </div>
+            
+                <div id="contact-content">
+                    <h2 class="root">contact@jana:~$<span class="cursor">|</span></h2>
+                    <p>You can contact me at my email below</p>
+                    <ul>
+                        <li>-------------------------</li>
+                        <li>gerdlowelljana@gmail.com</li>
+                        <li>-------------------------</li>
+                    </ul>
+                </div>
             </div>
-        </footer>
+            <div id="app">
+                
+            </div>
+
+            <footer>
+                <a href="" class="svglink">
+                </a>
+                <br><br>
+                <div>
+    
+                &copy;
+                Gerd Jana
+                </div>
+            </footer>
+        </div>
+        
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <script src="home-terminal.js"></script>
         <script src="winbox.bundle.js"></script>
         <script src="window_box.js"></script>
+        <!-- <script src="testing-site.js"></script> -->
     </body>
 </html>

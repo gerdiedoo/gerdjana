@@ -32,6 +32,9 @@ a {
     color: var(--big_font_color);
     text-decoration: none;
 }
+a:hover {
+    background-color: #e7b24118;
+}
 ul {
     list-style-type: none;
 }
@@ -61,6 +64,9 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+
+
 .root {
     color: var(--big_font_color);
 }
@@ -98,14 +104,6 @@ footer {
     margin-left: 5px;
     border-radius: 1px;
 }
-/* .cursor-white {
-    animation: cursor 1s infinite;
-    color: rgb(172,183,205);
-    display: inline-block;
-    width: 10px;
-    margin-left: 5px;
-    border-radius: 1px;
-} */
 
 .centered {
 	margin: 0px auto 40px;
@@ -113,15 +111,19 @@ footer {
 }
 
 @keyframes cursor {
-    0% {
-        opacity: 0
-    }
-    50% {
-        opacity: 1
-    }
-    to {
-        opacity: 0
-    }
+    0% { opacity: 0 }
+    50% { opacity: 1 }
+    to { opacity: 0 }
+}
+@keyframes fade_in_animation {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+@keyframes fade_out_animation {
+    100% { opacity:0; }
+    90% { opacity:1; }
+    0% { opacity:1; }
 }
 
 pre {
@@ -138,4 +140,22 @@ pre {
   
 .hidden {
     display: none;
+}
+#overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.welcome_message{
+    animation: fade_out_animation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-size: 28px;
+    color: #e8ab27;
+}
+.website_body{
+    animation: fade_in_animation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
