@@ -10,7 +10,7 @@
         <link rel="shortcut icon" type="image/jpg" href="terminal-59.png"/>
     </head>
     <body>
-        <div id="overlay" class = "welcome_message">
+        <div id="overlay" class = "welcome_message unselectable">
             <div id="app_welcome_message">
                 
             </div>
@@ -21,7 +21,7 @@
                     <ul>
                     <a> <li id="about">/about_me</li> </a>
                     <a href="work-in-progress.html">/blog </a>
-                    <a href="things-i-made.html">/things_i_made </a>
+                    <a> <li id="things_i_made">/things_i_made</li> </a>
                     <a> <li id="contact">/contact</li> </a>
                     </ul>
                 </nav>
@@ -33,8 +33,8 @@
             </div>
             
             <div class="hidden">
-                <div id="about-content">
-                    <h2 class="root">about_me@jana:~$<span class="cursor">|</span></h2>
+                <div id="about_content">
+                    <nobr><h2 class="root">about_me@jana:~$<span class="cursor">|</span></h2></nobr>
                     <p>
                         Hi, my full name is Gerd Lowell A. Jana, Im just a fresh graduate in Ateneo de Naga University, 
                         that is investing his time on full-stack development (that focuses on simplicity, usability & performance), 
@@ -45,14 +45,34 @@
                     </p>
                 </div>
             
-                <div id="contact-content">
-                    <h2 class="root">contact@jana:~$<span class="cursor">|</span></h2>
+                <div id="contact_content">
+                    <nobr><h2 class="root">contact@jana:~$<span class="cursor">|</span></h2></nobr>
                     <p>You can contact me at my email below</p>
                     <ul>
                         <li>-------------------------</li>
                         <li>gerdlowelljana@gmail.com</li>
                         <li>-------------------------</li>
                     </ul>
+                </div>
+                <div id="things_i_made_content">
+                    <nobr><h2 class="root">things_i_made@jana:~$<span class="cursor">|</span></h2></nobr>
+                    
+                    <div class = 'article'>
+                        <h3>Discord music bot</h3>
+                        <div> <img src="discord_music.png" alt="iscord music bot"></div>
+                        <p>
+                            a discord music bot from a youtube link using a module from <a href="https://nodejs.org/en/">node.js</a> called 
+                            <a href="https://discord.js.org/#/">discord.js</a>. This whole implementation however is extremely idiotic, 
+                            a lot of optimization is needed. This should only serve as something that a developer should always avoid.
+        
+                        </p>
+                        <p>
+                            status : incomplete and stupid
+                        </p>
+                        <p>
+                            <a href="https://github.com/gerdiedoo/Gerd-bot">github link</a>
+                        </p>
+                    </div>
                 </div>
             </div>
             <div id="app">
