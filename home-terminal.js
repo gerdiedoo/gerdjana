@@ -2,7 +2,7 @@ var app_wm =  document.getElementById('app_welcome_message')
 var typewriter_wm =  new Typewriter(app_wm,{
   loop: false,
   autoStart: true,
-  delay: 100,
+  delay: 50,
   cursor: '|',
   strings: []
 });
