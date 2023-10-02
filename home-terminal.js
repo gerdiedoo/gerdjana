@@ -18,10 +18,10 @@ var typewriter = new Typewriter(app, {
   strings: []
 });
 typewriter
-  .pauseFor(4000)
+  .pauseFor(100)
   .typeString('./intro_typewriter')
   .typeString('<br />') 
-  .pauseFor(2000)
+  .pauseFor(500)
   .typeString('<br />') 
   .typeString('hi, In')
   .pauseFor(500)
